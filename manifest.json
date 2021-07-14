@@ -1,0 +1,21 @@
+﻿{
+   "content_scripts": [
+    {
+      "matches": [
+        "https://www.spelltable.com/game/*"
+      ],
+      "js": [
+        "scripts/main.js"
+      ]
+    }
+  ],
+   "description": "spell tableにて日本語のカード画像を表示します",
+   "manifest_version": 2,
+   "name": "spellTableTranslate",
+   "page_action": {
+      "default_title": "spellTableTranslate"
+   },
+   "permissions": [ "management", "webNavigation", "activeTab", "tabs"],
+   "short_name": "spellTableTranslate",
+   "version": "1.0"
+}
