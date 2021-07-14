@@ -1,0 +1,2 @@
+# spellTableTranslate
+spellTableにて画像認識で表示されるカード画像を日本語のものに変更します。
